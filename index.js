@@ -39,7 +39,7 @@ app.get('/',function(req,res){
 })
 
 const sv= http.createServer(app);
-sv.listen(3000,function(error,result){
+sv.listen(process.env.PORT||3000,function(error,result){
 
             if(error){
                 console.log("Error!");
