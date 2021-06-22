@@ -1,24 +1,28 @@
 {
-  "name": "yee",
+  "name": "yetz",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rahuldhage/webz.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+      "node": "14.16.1"
+  },
   "bugs": {
     "url": "https://github.com/rahuldhage/webz/issues"
   },
-  "homepage": "https://github.com/rahuldhage/webz#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/rahuldhage/webz#readme"
 }
